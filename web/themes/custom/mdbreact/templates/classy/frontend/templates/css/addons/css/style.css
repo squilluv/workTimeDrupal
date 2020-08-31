@@ -1,0 +1,62 @@
+html,
+body,
+.view{
+	height: 100%;
+}
+
+.carousel{
+	height: 50%;
+}
+
+.carousel .carousel-inner{
+	height: 100%;
+}
+
+.carousel .carousel-inner .carousel-item,
+.carousel .carousel-inner .active{
+	height: 100%;
+}
+
+@media(max-width: 776px;){
+	.carousel{
+		height: 100%
+	}
+}
+
+.page-footer{
+	background-color: #929fba;
+}
+
+@media(max-width: 776px;){
+	.card{
+		width: 100%
+	}
+}
+
+.map-container-section {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container-section iframe {
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+.bg{min-height: calc(100vh);} 
+
+@media only (max-width: 600px) {
+
+.bg {background-repeat: no-repeat; background-size: cover; background-position: center center;}
+
+} 
+
+@media only (max-width: 2160px) {
+
+.bg {background-repeat: repeat-y, repeat-y; background-position: left, right; background-attachment: fixed, fixed; background-size: cover;}
+
+} 
